@@ -147,20 +147,6 @@ module.exports = [
         "runs": true
     },
     {
-        "file": "plugins/org.apache.cordova.file-transfer/www/FileTransferError.js",
-        "id": "org.apache.cordova.file-transfer.FileTransferError",
-        "clobbers": [
-            "window.FileTransferError"
-        ]
-    },
-    {
-        "file": "plugins/org.apache.cordova.file-transfer/www/FileTransfer.js",
-        "id": "org.apache.cordova.file-transfer.FileTransfer",
-        "clobbers": [
-            "window.FileTransfer"
-        ]
-    },
-    {
         "file": "plugins/org.apache.cordova.camera/www/CameraConstants.js",
         "id": "org.apache.cordova.camera.Camera",
         "clobbers": [
@@ -266,6 +252,20 @@ module.exports = [
         ]
     },
     {
+        "file": "plugins/org.apache.cordova.file-transfer/www/FileTransferError.js",
+        "id": "org.apache.cordova.file-transfer.FileTransferError",
+        "clobbers": [
+            "window.FileTransferError"
+        ]
+    },
+    {
+        "file": "plugins/org.apache.cordova.file-transfer/www/FileTransfer.js",
+        "id": "org.apache.cordova.file-transfer.FileTransfer",
+        "clobbers": [
+            "window.FileTransfer"
+        ]
+    },
+    {
         "file": "plugins/org.apache.cordova.media/www/MediaError.js",
         "id": "org.apache.cordova.media.MediaError",
         "clobbers": [
@@ -299,10 +299,10 @@ module.exports.metadata =
 // TOP OF METADATA
 {
     "org.apache.cordova.file": "1.3.1",
-    "org.apache.cordova.file-transfer": "0.4.6",
     "org.apache.cordova.camera": "0.3.2",
     "org.apache.cordova.contacts": "0.2.13",
     "org.apache.cordova.dialogs": "0.2.10",
+    "org.apache.cordova.file-transfer": "0.4.6",
     "org.apache.cordova.geolocation": "0.3.10",
     "org.apache.cordova.media": "0.2.13",
     "org.apache.cordova.network-information": "0.2.12"
